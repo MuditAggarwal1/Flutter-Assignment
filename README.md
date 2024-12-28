@@ -94,12 +94,6 @@ lib/
 ├── init_dependencies.main.dart    # Dependencey injection
 └── main.dart                      # Entry point of the application
 ```
-
-### Why I Skipped the Domain Layer
-
-In a small project like this, the **domain layer**—typically responsible for defining business logic and use cases—can introduce unnecessary complexity without providing substantial benefits. Skipping the domain layer ensures simplicity, as the minimal business logic can be handled directly in the `Cubit` or `Repository` layers. This approach reduces development time, enabling focus on functionality, UI, and testing. Moreover, the emphasis in this assignment is on delivering a functional, clean, and maintainable app rather than strict adherence to architectural patterns. By directly connecting the `Cubit` to `Repositories` and `Data Sources`, we achieve a balance between modularity and simplicity without sacrificing code quality.
-
-
 ---
 
 ## ⚙️ How to Run  
@@ -130,28 +124,7 @@ In a small project like this, the **domain layer**—typically responsible for d
 
 ## 📹 Demo  
 
-### 🎥 Video Walkthrough  
-
-https://drive.google.com/file/d/1iYDiVGU4wV-2xTRzhCSX9JJwE3wjAbjV/view?usp=drive_link 
-
 ### 📱 APK  
 
 Download the APK from the [Releases](https://github.com/Udhay-Adithya/famapp-flutter-assignment/releases).
 
----
-
-## 📝 Notes  
-
-1. **Persistence**: Local storage is handled using SharedPreferences for managing dismissed and remind-later card states.  
-2. **Error Handling**: Comprehensive error handling for API and app state.  
-3. **Modular Design**: Adopts clean architecture principles, ensuring separation of concerns and scalability.  
-
----
-
-## 💌 Contact  
-
-For any queries or feedback, email me at: `udhayxd@gmail.com`.  
-
----
-
-✨ *Built with ❤️ and Flutter!*  # Flutter-Assignment
