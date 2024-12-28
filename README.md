@@ -120,11 +120,3 @@ lib/
    flutter run
    ```
 
----
-
-## 📹 Demo  
-
-### 📱 APK  
-
-Download the APK from the [Releases](https://github.com/Udhay-Adithya/famapp-flutter-assignment/releases).
-
